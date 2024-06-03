@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<div>
+    <h2>Device Activation</h2>
+        <p >
+            Confirm this code matches the one displayed in your terminal:
+        </p>
+        <p>{{ user_code }}</p>
+        <div>
+            <button onclick="location.href='{{ confirm_uri }}';">Confirm and continue</button>
+            <button onclick="location.href='{{ deny_uri }}'">Cancel</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>
